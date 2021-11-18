@@ -10,6 +10,7 @@ var enemyName = "Roborto";
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+// fight function
 var fight = function() {
 window.alert("Welcome to Robot Gladitors!");
 };
@@ -32,14 +33,6 @@ var promptFight = window.prompt("would you like to FIGHT or SKIP this this battl
 console.log(
     playerName + "attacked" + enemyName +". " + enemyName + "now has" + enemyHealth + "health remaining."
 );
-
-//check enemy's health
-if (enemyHealth <=0) {
-    window.alert(enemyName + "has died!");
-}
-else {
-    window.alert(enemyName + "still has" + enemyHealth + "health left.");
-}
 
 // if player choses to fight, then fight
 if (promptFight === "fight" || promptFight === "FIGHT") {

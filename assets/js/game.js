@@ -142,10 +142,10 @@ var shop = function() {
     case 'REFILL':
     case 'refill':
       if (playerMoney >= 7) {
-        window.alert("Refilling player's health by 20 for 7 dollars.");
+        window.alert("Refilling player's health by 45 for 7 dollars.");
 
         // increase health and decrease money
-        playerHealth = playerHealth + 20;
+        playerHealth = playerHealth + 45;
         playerMoney = playerMoney - 7;
     }
     else {
